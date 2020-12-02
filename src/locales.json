@@ -1,0 +1,6 @@
+{
+    "san-cli-ui-widget-color-converter": {
+        "title": "颜色转换器",
+        "description": "16 进制颜色和 RGB 颜色互转"
+    }
+}

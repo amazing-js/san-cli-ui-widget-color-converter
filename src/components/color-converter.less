@@ -1,0 +1,35 @@
+.color-converter {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    position: relative;
+    .input-wrap {
+        display: flex;
+        align-items: center;
+        .santd-input {
+            width: 180px;
+            margin-right: 12px;
+        }
+        .santd-icon {
+            font-size: 24px;
+            cursor: pointer;
+            &:hover {
+                opacity: .65;
+            }
+            .darkmode & {
+                color: #fff;
+            }
+        }
+    }
+    .preview {
+        position: absolute;
+        right: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+}
